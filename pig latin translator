@@ -1,0 +1,26 @@
+#variable to hold the 'ay' that is added @ the end of the original word
+pyg = 'ay'
+
+#user input
+original = raw_input('Enter a word:')
+
+"""transforming user input to lower case, 
+getting the first letter, putting that first letter at the end of the word along with 'ay', 
+then removing the first letter from the beginning"""
+
+word = original.lower()
+first = word[0]
+new_word = word + first + pyg
+new_word = new_word[1:]
+
+"""if statement to check if user input is valid (i.e: not an empty string and not containing any non-letters),
+and pritning the translated word"""
+
+if len(original) > 0 and original.isalpha():
+    print "original word:"
+    print original
+    
+    print "translation:"
+    print new_word
+else:
+    print 'empty'
