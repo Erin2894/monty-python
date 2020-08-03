@@ -1,2 +1,2 @@
 # monty-python
-various programs written in python
+various small programs written in python
