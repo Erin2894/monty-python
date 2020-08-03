@@ -1,2 +1,2 @@
 # monty-python
-various small programs written in python
+various small python programs (completed when doing the codecademy course on python).
